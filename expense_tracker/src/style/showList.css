@@ -1,0 +1,88 @@
+#page-header {
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+    width: 100%;
+  }
+  
+  #Add-Button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #Add-Button:hover {
+    background-color: #45a049;
+  }
+  
+  .use-inline {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .date {
+    width: 15%;
+  }
+  
+  .header {
+    width: 50%;
+  }
+  
+  .price {
+    width: 20%;
+  }
+  
+  .Rahul, .Ramesh {
+    width: 15%;
+  }
+  
+  .header-color {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  hr {
+    margin: 20px 0;
+  }
+  
+  .total, .Rahul, .Ramesh {
+    font-weight: bold;
+  }
+  
+  .payable {
+    color: red;
+  }
+  
+  .show-list {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  
+  .show-list .row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .show-list .row .column {
+    flex: 1;
+    padding: 5px;
+  }
+  
+  .show-list .row.header {
+    font-weight: bold;
+  }
+  
+  .column-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
